@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
 `include "Assigner.v"
 `include "comparator.v"
-`include ""
+`include "subtractor.v"
 
-module divide(
+module divider(
     input [31:0] d,
     input [31:0] ds,
     output [39:0] q
